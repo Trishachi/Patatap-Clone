@@ -185,6 +185,12 @@
         for(var i = 0; i < circles.length; i++){
           circles[i].fillColor.hue += 1;
           circles[i].scale(0.9);
+          //if circle area is less than 1
+          if(circles[i].area < 1){
+            circles[i].remove(); //remove circle from canvas
+            circles.splice(i, 1); //remove circle from the array
+            console.log(circles);
+          }
         }
       }
     </script>
