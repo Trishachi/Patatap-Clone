@@ -8,4 +8,4 @@ A visual sound kit application with animations.
 
 This was built using the following javaScript libraries:
 * [Paper.js](http://paperjs.org/): For creating the circles and animations
-* [Howler.js](https://cdnjs.com/libraries/howler): For adding the sound tunes functionality to the application.
+* [Howler.js](https://github.com/goldfire/howler.js/#quick-start): For adding the sound tunes functionality to the application.
